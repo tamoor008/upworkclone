@@ -1,6 +1,6 @@
 import React from 'react'
-import SignIn from '../ui/authScreens/SignIn';
-import Welcome from '../ui/authScreens/Welcome';
+import SignIn from '../ui/authScreens/Screens/SignIn';
+import Welcome from '../ui/authScreens/Screens/Welcome';
 import { TransitionPresets ,createStackNavigator} from '@react-navigation/stack';
 
 

@@ -16,8 +16,6 @@ const BidScreen = ({ navigation }) => {
   console.log('saved uid ', uid);
   const refDatabase = firebase.app().database('https://upworkclone-406f6-default-rtdb.firebaseio.com/');
   const jobsref = refDatabase.ref('jobs');
-  // const userJobRef = refDatabase.ref('users').child(uid).child('jobs');
-
 
 
   const route = useRoute()

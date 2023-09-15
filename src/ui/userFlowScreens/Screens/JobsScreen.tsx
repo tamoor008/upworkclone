@@ -1,7 +1,6 @@
 import { View, Text, StyleSheet, FlatList } from 'react-native'
 import React, { useState } from 'react'
 import JobComp from '../Components/jobComp'
-import { useSelector } from 'react-redux';
 import {firebase} from '@react-native-firebase/database'
 import { AppColors } from '../../../utils/AppColors';
 

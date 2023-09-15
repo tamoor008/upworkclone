@@ -1,6 +1,6 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import SignIn from '../ui/authScreens/SignIn';
+import SignIn from '../ui/authScreens/Screens/SignIn';
 import SignUp from '../ui/authScreens/SignUp';
 import Welcome from '../ui/authScreens/Welcome';
 import { TransitionPresets, createStackNavigator } from '@react-navigation/stack';

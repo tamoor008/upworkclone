@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useDispatch } from 'react-redux';
 import auth from '@react-native-firebase/auth';
-import { setUid } from '../../redux/AppReducer';
-import { AppColors } from '../../utils/AppColors';
+import { setUid } from '../../../redux/AppReducer';
+import { AppColors } from '../../../utils/AppColors';
 
 const SignIn = ({ navigation }) => {
 
@@ -42,7 +42,7 @@ const SignIn = ({ navigation }) => {
                     setLoader(false)
                 }
 
-                console.error(error);
+                console.log(error);
             });
     }
 

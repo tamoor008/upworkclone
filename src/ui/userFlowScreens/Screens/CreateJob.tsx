@@ -1,7 +1,6 @@
 import { View, Text, StyleSheet, ScrollView, FlatList, Image, ActivityIndicator, } from 'react-native'
 import { Picker } from '@react-native-picker/picker'
 import React, { useState } from 'react'
-import { useRoute } from '@react-navigation/native'
 import { TextInput, TouchableOpacity } from 'react-native-gesture-handler'
 import { firebase } from '@react-native-firebase/database'
 import { useSelector } from 'react-redux'
