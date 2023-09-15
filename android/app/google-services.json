@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "26093061878",
+    "project_id": "upworkclone-406f6",
+    "storage_bucket": "upworkclone-406f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26093061878:android:c487710c82cbe266500ed7",
+        "android_client_info": {
+          "package_name": "com.upworkclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcqHLw0DY1Um7bRUpE1ILdJNZ6qB49TPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
